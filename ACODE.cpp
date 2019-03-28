@@ -2,8 +2,8 @@
 using namespace std;
 int dig(char a)
 {
- 	int x= int(int(a)-int('0'));	
-	return x;
+ int x= int(int(a)-int('0'));	
+return x;
 }	
 
 int main() 
@@ -11,9 +11,9 @@ int main()
 while(1)
 {
 	string str;
-cin>>str;
-if(str[0]=='0')
-break;
+	cin>>str;
+	if(str[0]=='0')
+	break;
 	int size=str.length();
 	int arr[size+1];
 	arr[size]=1;
