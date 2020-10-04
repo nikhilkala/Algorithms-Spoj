@@ -17,7 +17,7 @@ long long int arr[n];
 	}
 	for(i=0;i<n;i++)
 	{
-		sum=sum - ((n-i-1)*arr[i]) + (i*arr[i]);
+		sum-=sum ((n-i-1)*arr[i]) + (i*arr[i]);
 	}
 cout<<sum<<endl;
 }
